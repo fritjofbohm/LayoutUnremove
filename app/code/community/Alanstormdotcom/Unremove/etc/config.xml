@@ -28,14 +28,12 @@ THE SOFTWARE.
 	</modules>
 	<global>
 		<models>
-			<unremove>
-				<class>
-					Alanstormdotcom_Unremove_Model
-				</class>
-			</unremove>
+			<alanstormdotcomunremove>
+				<class>Alanstormdotcom_Unremove_Model</class>
+			</alanstormdotcomunremove>
 		</models>
-		
-		<events>			
+
+		<events>
 			<controller_action_layout_generate_xml_before>
 				<observers>
 					<alanstormdotcom_unremoveblock_observer>
@@ -46,6 +44,5 @@ THE SOFTWARE.
 				</observers>
 			</controller_action_layout_generate_xml_before>
 		</events>
-		
 	</global>
 </config>
